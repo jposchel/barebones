@@ -1,6 +1,5 @@
 a.button {
 	max-width: 250px;
-	min-width: 150px;
 	height: 50px;
 	display: inline-block;
 	background-color: #b3ffb3;
@@ -8,7 +7,16 @@ a.button {
 
 img.button {
 	max-width: 250px;
-	min-width: 150px;
 	height: 50px;
 	display: inline-block;
+}
+
+a.button.logo-home-main {
+	width: 50px;
+	height: 50px;
+}
+
+a.button.logo-home-main img.button.logo-home-main {
+	width: 50px;
+	height: 50px;
 }
