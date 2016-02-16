@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5, h6, p {
 	font-weight: normal;
 }
 
+h1 {
+	font-size: 28px;
+}
+
 a {
 	padding: 0px;
 	margin: 0px;
@@ -24,6 +28,12 @@ a {
 	color: #00cc00;
 	font-family: Arial, Sans-Serif;
 	font-weight: normal;
+}
+
+div.main-content {
+	max-width: 700px;
+	padding: 50px 50px;
+	margin: 0 auto;
 }
 
 a.button {
@@ -48,3 +58,20 @@ a.button.logo-home-main img.button.logo-home-main {
 	width: 50px;
 	height: 50px;
 }
+
+footer {
+	padding: 50px 50px;
+	background-color: #b3ffb3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
