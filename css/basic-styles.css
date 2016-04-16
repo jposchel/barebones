@@ -90,6 +90,10 @@ div.content-wrapper {
 	display: inline-block;
 }
 
+.center-content {
+	text-align: center;
+}
+
 nav.nav-vertical ul li {
 	display: block;
 	margin: 7px;
@@ -102,11 +106,16 @@ nav.nav-horizontal ul li {
 	width: auto;
 }
 
-a.button {
+a.button-action {
+	margin: 0 auto;
+	padding: 20px 20px 0px 20px;
 	max-width: 250px;
-	height: 50px;
+	height: 40px;
 	display: inline-block;
-	background-color: #b3ffb3;
+	background-color: #00cc66;
+	border-radius: 3px;
+	color: #ffffff;
+	text-align: center;
 }
 
 img.button {
@@ -143,6 +152,13 @@ header nav.main-site-nav {
 	top: 60px;
 }
 /* --- END Sitewide Styles: Header --- */
+
+/* -------------------- Sitewide Styles: Content -------------------- */
+
+a.button-small {
+	margin: 50px;
+}
+/* --- END Sitewide Styles: Content --- */
 
 /* -------------------- Sitewide Styles: Footer -------------------- */
 /* --- END Sitewide Styles: Footer --- */
