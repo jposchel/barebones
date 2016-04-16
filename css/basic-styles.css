@@ -38,7 +38,7 @@ footer {
 
 h1, h2, h3, h4, h5, h6, p {
 	margin: 0px;
-	padding: 0px;
+	padding: 5px;
 	color: #404040;
 	font-family: Arial, Sans-Serif;
 	font-weight: normal;
@@ -49,8 +49,6 @@ h1 {
 }
 
 p {
-	margin: 0px;
-	padding: 0px;
 	border: 0px;
 	display: inline-block;
 	font-family: Arial, Sans-Serif;
@@ -66,6 +64,17 @@ a {
 	font-family: Arial, Sans-Serif;
 	font-weight: normal;
 }
+
+ul {
+	list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+	height: auto;
+	width: 100px;
+}
 /* --- END Basic Styles: Tags --- */
 
 /* -------------------- Basic Styles: Classes -------------------- */
@@ -74,6 +83,18 @@ div.main-content {
 	max-width: 700px;
 	padding: 50px 50px;
 	margin: 0 auto;
+}
+
+nav.nav-vertical ul li {
+	display: block;
+	margin: 7px;
+	width: 100px;
+}
+
+nav.nav-horizontal ul li {
+	display: inline-block;
+	margin: 0px 10px 0px 10px; /* top | right | bottom | left */
+	width: auto;
 }
 
 a.button {
@@ -95,6 +116,7 @@ img.button {
 a.button.logo-home-main {
 	width: 50px;
 	height: 50px;
+	margin-bottom: 10px;
 }
 
 a.button.logo-home-main img.button.logo-home-main {
