@@ -1,4 +1,7 @@
-body {
+/* -------------------- Basic Styles: Tags -------------------- */
+
+html, body {
+	width: 100%;
 	margin: 0px;
 	padding: 0px;
 }
@@ -11,8 +14,8 @@ div {
 img {
 	margin: 0px;
 	padding: 0px;
-	display: inline-block;
 	border: 0px;
+	display: inline-block;
 	vertical-align: middle;
 }
 
@@ -63,6 +66,9 @@ a {
 	font-family: Arial, Sans-Serif;
 	font-weight: normal;
 }
+/* --- END Basic Styles: Tags --- */
+
+/* -------------------- Basic Styles: Classes -------------------- */
 
 div.main-content {
 	max-width: 700px;
@@ -82,6 +88,9 @@ img.button {
 	height: 50px;
 	display: inline-block;
 }
+/* --- END Basic Styles: Classes --- */
+
+/* -------------------- Sitewide Styles: Header -------------------- */
 
 a.button.logo-home-main {
 	width: 50px;
@@ -92,3 +101,7 @@ a.button.logo-home-main img.button.logo-home-main {
 	width: 50px;
 	height: 50px;
 }
+/* --- END Sitewide Styles: Header --- */
+
+/* -------------------- Sitewide Styles: Footer -------------------- */
+/* --- END Sitewide Styles: Footer --- */
