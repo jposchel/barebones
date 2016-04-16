@@ -85,6 +85,10 @@ div.main-content {
 	margin: 0 auto;
 }
 
+div.content-wrapper {
+	display: inline-block;
+}
+
 nav.nav-vertical ul li {
 	display: block;
 	margin: 7px;
@@ -109,6 +113,10 @@ img.button {
 	height: 50px;
 	display: inline-block;
 }
+
+.x-large-headline {
+	font-size: 50px;
+}
 /* --- END Basic Styles: Classes --- */
 
 /* -------------------- Sitewide Styles: Header -------------------- */
@@ -123,7 +131,34 @@ a.button.logo-home-main img.button.logo-home-main {
 	width: 50px;
 	height: 50px;
 }
+
+header div.main-content {
+	position: relative;
+}
+
+header nav.main-site-nav {
+	position: absolute;
+	right: 50px;
+	top: 60px;
+}
 /* --- END Sitewide Styles: Header --- */
 
 /* -------------------- Sitewide Styles: Footer -------------------- */
 /* --- END Sitewide Styles: Footer --- */
+
+/* -------------------- Sitewide Styles: Media Queries -------------------- */
+
+@media (max-width: 500px) {
+	header nav.main-site-nav {
+		position: static;
+		display: block;
+		margin: 20px 0px 0px 0px;
+		text-align: center;
+	}
+
+	nav ul li {
+		display: block;
+		margin: 7px;
+		width: 100px;
+	}
+}
