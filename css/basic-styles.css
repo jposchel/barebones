@@ -94,6 +94,58 @@ div.content-wrapper {
 	text-align: center;
 }
 
+.grid-wrapper {
+	position: relative;
+	width: 100%;
+}
+
+div.col-wrapper {
+	position: relative;
+	width: 100%;
+}
+
+.col-1-of-4 {
+	position: absolute;
+	display: inline-block;
+	width: 25.0000000000%;
+	bottom: flex;
+}
+
+.col-3-of-4 {
+	position: absolute;
+	display: inline-block;
+	width: 75.0000000000%;
+	bottom: flex;
+}
+
+.col-1-of-3 {
+	position: absolute;
+	display: inline-block;
+	width: 33.3333333333%;
+	bottom: flex;
+}
+
+.col-2-of-3 {
+	position: absolute;
+	display: inline-block;
+	width: 66.6666666666%;
+	bottom: flex;
+}
+
+.col-1-of-2 {
+	position: absolute;
+	display: inline-block;
+	width: 50.0000000000%;
+	bottom: flex;
+}
+
+.col-1 {
+	position: absolute;
+	display: inline-block;
+	width: 100.0000000000%;
+	bottom: flex;
+}
+
 nav.nav-vertical ul li {
 	display: block;
 	margin: 7px;
